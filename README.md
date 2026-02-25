@@ -12,7 +12,7 @@
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-compatible-red.svg)](https://clawhub.ai/)
 [![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-compatible-black.svg)](https://docs.github.com/en/copilot)
 
-**Author:** [Emily (@Emily2040)](https://github.com/Emily2040)  
+**Author:** [Emily (@iamemily2050)](https://github.com/Emily2040)  
 **Platform:** [ByteDance Seedance 2.0](https://seed.bytedance.com) · Dreamina · Jimeng  
 **Updated:** 2026-02-25 · Q1 2026 release intelligence
 
@@ -134,7 +134,7 @@ seedance-2.0/
 ├── README.md                   ← This file
 ├── CHANGELOG.md                ← Version history
 ├── .github/
-│   └── CODEOWNERS              ← @Emily2040 owns all files
+│   └── CODEOWNERS              ← @iamemily2050 owns all files
 ├── skills/
 │   ├── seedance-audio/SKILL.md
 │   ├── seedance-camera/SKILL.md
@@ -181,7 +181,7 @@ All 20 skills pass the [AgentSkills open standard](https://agentskills.io/) vali
 
 ## 📄 License
 
-MIT © 2026 [Emily (@Emily2040)](https://github.com/Emily2040)
+MIT © 2026 [Emily (@iamemily2050)](https://github.com/Emily2040)
 
 ---
 
@@ -196,5 +196,5 @@ python3 scripts/validate_frontmatter.py
 
 ---
 
-*Built with ❤️ by Emily (@Emily2040) — AI artist, filmmaker, and agent skill architect.*  
+*Built with ❤️ by Emily (@iamemily2050) — AI artist, filmmaker, and agent skill architect.*  
 *Source intelligence: ByteDance Seedance 2.0 official blog, Douyin creator community, CSDN practitioner tutorials, Q1 2026.*

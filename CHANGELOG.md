@@ -14,7 +14,7 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - `metadata.antigravity`, `metadata.gemini-cli`, `metadata.firebase` blocks added to all relevant skills.
 - **Platform Compatibility table** injected into root `SKILL.md` body with install paths and one-liner install commands for all 10 supported platforms.
 - `seedance-pipeline` tagged with `firebase` for Firebase Studio pipeline integration.
-- Author attribution: **Emily (@Emily2040)** added across `LICENSE`, `README.md`, `CODEOWNERS`, and root `SKILL.md`.
+- Author attribution: **Emily (@iamemily2050)** added across `LICENSE`, `README.md`, `CODEOWNERS`, and root `SKILL.md`.
 - `README.md` — full GitHub-ready project README with install matrix, skill directory, and badges.
 - `LICENSE` — MIT licence with correct copyright holder.
 - `CHANGELOG.md` — this file.
@@ -101,4 +101,4 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
-*Maintained by [Emily (@Emily2040)](https://github.com/Emily2040)*
+*Maintained by [Emily (@iamemily2050)](https://github.com/Emily2040)*
