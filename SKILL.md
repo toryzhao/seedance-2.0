@@ -11,7 +11,7 @@
 - **Version:** 3.1.0
 - **Last Stress-Tested:** 2026-Q1
 - **License:** MIT
-- **Author:** Emily2040
+- **Author:** Iamemily2050 (@iamemily2050 on X/IG)
 - **Repository:** https://github.com/Emily2040/seedance-2.0-skill
 
 ---

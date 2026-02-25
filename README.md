@@ -5,7 +5,7 @@
 This repository contains the `SKILL.md` file which defines the **Seedance 2.0** skill for AI-powered filmmaking. It covers the full spectrum from minimal-intent directing to frame-precise choreography.
 
 ## Author
-- **Emily2040**
+- **Iamemily2050** (@iamemily2050 on X/IG)
 
 ## Description
 Comprehensive production pipeline for quad-modal AI filmmaking with Seedance 2.0 (ByteDance / Dreamina). Handles @Tag references (I2V/V2V/R2V), multi-character workflows, storyboard methods, video extension chains, action choreography, audio design, and post-processing.
