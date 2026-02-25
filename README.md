@@ -1,41 +1,109 @@
-# 🎬 seedance-20
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Seedance 2.0 — Quad-Modal AI Filmmaking Engine" src="assets/hero-dark.svg" width="100%">
+</picture>
 
-> **Seedance 2.0 — Quad-Modal AI Filmmaking Skill Library**  
-> Text-to-Video · Image-to-Video · Video-to-Video · Reference-to-Video
+<p align="center">
+  <a href="https://github.com/Emily2040/seedance-2.0/releases"><img src="https://img.shields.io/badge/version-3.6.0-00f0ff?style=flat-square&labelColor=0d1117" alt="Version"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-b000ff?style=flat-square&labelColor=0d1117" alt="License"></a>
+  <a href="skills"><img src="https://img.shields.io/badge/skills-19_modules-ff006e?style=flat-square&labelColor=0d1117" alt="Skills"></a>
+  <a href="#-multilingual-precision"><img src="https://img.shields.io/badge/languages-5-ffbe0b?style=flat-square&labelColor=0d1117" alt="Languages"></a>
+  <a href="#-platform-matrix"><img src="https://img.shields.io/badge/platforms-10+-00f0ff?style=flat-square&labelColor=0d1117" alt="Platforms"></a>
+  <a href="https://agentskills.io/"><img src="https://img.shields.io/badge/Agent_Skills-Open_Standard-58a6ff?style=flat-square&labelColor=0d1117" alt="Agent Skills"></a>
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-3.6.0-blue.svg)](CHANGELOG.md)
-[![Agent Skills](https://img.shields.io/badge/Agent_Skills-Open_Standard-green.svg)](https://agentskills.io/)
-[![Antigravity](https://img.shields.io/badge/Antigravity-compatible-orange.svg)](https://antigravity.google/docs/skills)
-[![Gemini CLI](https://img.shields.io/badge/Gemini_CLI-compatible-blue.svg)](https://geminicli.com/docs/cli/skills/)
-[![Claude Code](https://img.shields.io/badge/Claude_Code-compatible-purple.svg)](https://docs.anthropic.com/en/docs/claude-code/skills)
-[![OpenClaw](https://img.shields.io/badge/OpenClaw-compatible-red.svg)](https://clawhub.ai/)
-[![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-compatible-black.svg)](https://docs.github.com/en/copilot)
+<p align="center">
+  <code>Generate and direct cinematic AI videos with Seedance 2.0 (ByteDance / Dreamina / Jimeng).</code><br>
+  <code>Text-to-Video · Image-to-Video · Video-to-Video · Reference-to-Video</code>
+</p>
 
-**Author:** [Emily (@iamemily2050)](https://github.com/Emily2040)  
-**Platform:** [ByteDance Seedance 2.0](https://seed.bytedance.com) · Dreamina · Jimeng  
-**Updated:** 2026-02-25 · Q1 2026 release intelligence
+<p align="center">
+  <b>Author:</b> <a href="https://github.com/Emily2040">Emily (@iamemily2050)</a> · 
+  <b>Platform:</b> <a href="https://seed.bytedance.com">ByteDance Seedance 2.0</a> · Dreamina · Jimeng<br>
+  <b>Updated:</b> 2026-02-25 · Q1 2026 release intelligence
+</p>
 
 ---
 
-## What is this?
+## `>` Why Seedance 2.0?
 
-A production-ready Agent Skill library for **Seedance 2.0** — ByteDance's quad-modal AI video generation system. This skill package teaches any compatible AI coding agent (Claude Code, Antigravity, Gemini CLI, GitHub Copilot, OpenClaw, Cursor, Codex, Windsurf, OpenCode, Firebase Studio) how to:
+<table>
+<tr>
+<td width="50%">
 
-- Write and validate Seedance 2.0 prompts across all four modes (T2V · I2V · V2V · R2V)
-- Direct camera movement, lighting, motion, character consistency, and VFX
-- Design native audio, dialogue, and lip-sync for multi-character scenes
-- Build post-processing pipelines with ComfyUI and Firebase Studio
-- Navigate the Feb 2026 copyright enforcement landscape (Disney, Paramount, MPA, SAG-AFTRA)
-- Prompt in 6 languages with native cinematic vocabulary
+**For AI Filmmakers** — Stop writing flat prompts. Seedance 2.0 gives you a complete director's toolkit: camera language, motion control, lighting design, character fidelity, audio sync, and VFX integration — all structured as modular, composable skills that any AI agent can load on demand.
+
+</td>
+<td width="50%">
+
+**For Agent Builders** — Each of the 19 sub-skills is independently loadable. Your agent reads the 75-line root `SKILL.md`, identifies the task, and loads only the specific modules it needs. Zero token waste. Maximum precision.
+
+</td>
+</tr>
+</table>
 
 > ⚠️ **Feb 2026 Status**: Seedance 2.0 API global release was delayed due to copyright enforcement actions. Real-person face uploads paused Feb 15. Content filters tightened for named franchise characters, anime IPs, and streaming originals. Run `seedance-copyright` before every generation.
 
----
+<br>
 
-## 📦 Installation
+## `>` Skill Constellation
 
-### Universal (all platforms that support the Agent Skills open standard)
+> **Click any node** to navigate directly to that skill's documentation.
+
+<p align="center">
+  <img src="assets/skill-map.svg" alt="Seedance 2.0 Skill Constellation Map" width="100%">
+</p>
+
+<details>
+<summary><b>📂 Full Skill Directory — Core Pipeline</b></summary>
+<br>
+
+| Skill | Emoji | What it does |
+|:---|:---:|:---|
+| [`seedance-interview`](skills/seedance-interview/SKILL.md) | 📋 | Guided pre-production interview → structured Seedance prompt |
+| [`seedance-prompt`](skills/seedance-prompt/SKILL.md) | ✍️ | Build and validate prompts — 5-layer stack, @Tag system, quad-modal rules |
+| [`seedance-camera`](skills/seedance-camera/SKILL.md) | 🎥 | Camera movement, shot framing, multi-shot sequences, anti-drift locks |
+| [`seedance-motion`](skills/seedance-motion/SKILL.md) | 🏃 | Motion timing, action choreography, fight physics, video extension chains |
+| [`seedance-lighting`](skills/seedance-lighting/SKILL.md) | 💡 | Lighting, atmosphere, light transitions, mood and time-of-day specs |
+| [`seedance-characters`](skills/seedance-characters/SKILL.md) | 🎭 | Character identity locking, @Tag assignment, multi-character scene management |
+| [`seedance-style`](skills/seedance-style/SKILL.md) | 🎨 | Visual style, render-engine tokens, period aesthetics, style-transfer reference |
+| [`seedance-vfx`](skills/seedance-vfx/SKILL.md) | ✨ | VFX physics contracts, particle systems, destruction, energy effects |
+| [`seedance-audio`](skills/seedance-audio/SKILL.md) | 🔊 | Native audio design, dialogue lip-sync, @Audio1 reference, desync fixes |
+| [`seedance-pipeline`](skills/seedance-pipeline/SKILL.md) | 🔗 | ComfyUI nodes, API integration, Firebase Studio, post-processing chains |
+| [`seedance-recipes`](skills/seedance-recipes/SKILL.md) | 📖 | Genre template recipes: product ads, fight scenes, music videos, and more |
+| [`seedance-troubleshoot`](skills/seedance-troubleshoot/SKILL.md) | 🔧 | QA checklist, generation failure diagnostics, emergency fix procedures |
+
+</details>
+
+<details>
+<summary><b>⚖️ Content Quality & Governance</b></summary>
+<br>
+
+| Skill | Emoji | What it does |
+|:---|:---:|:---|
+| [`seedance-copyright`](skills/seedance-copyright/SKILL.md) | ⚖️ | IP rules, safe substitutions, Feb 2026 enforcement data |
+| [`seedance-antislop`](skills/seedance-antislop/SKILL.md) | 🚫 | Detects and removes AI filler language and hollow superlatives from prompts |
+
+</details>
+
+<details>
+<summary><b>🌍 Multilingual Vocabulary</b></summary>
+<br>
+
+| Skill | Flag | Languages | Terms |
+|:---|:---:|:---|---:|
+| [`seedance-vocab-zh`](skills/seedance-vocab-zh/SKILL.md) | 🇨🇳 | Chinese cinematic vocabulary | 320+ |
+| [`seedance-vocab-ja`](skills/seedance-vocab-ja/SKILL.md) | 🇯🇵 | Japanese cinematic vocabulary | 280+ |
+| [`seedance-vocab-ko`](skills/seedance-vocab-ko/SKILL.md) | 🇰🇷 | Korean cinematic vocabulary | 270+ |
+| [`seedance-vocab-es`](skills/seedance-vocab-es/SKILL.md) | 🇪🇸 | Spanish cinematic vocabulary (Castilian + Latin American) | 270+ |
+| [`seedance-vocab-ru`](skills/seedance-vocab-ru/SKILL.md) | 🇷🇺 | Russian cinematic vocabulary (Eisenstein/Tarkovsky tradition) | 270+ |
+
+</details>
+
+<br>
+
+## `>` Quick Install
 
 ```bash
 # Antigravity
@@ -47,10 +115,7 @@ gemini skills install https://github.com/Emily2040/seedance-2.0
 # Claude Code
 claude skills install https://github.com/Emily2040/seedance-2.0
 
-# OpenClaw / ClawHub
-claude skills install https://github.com/Emily2040/seedance-2.0
-
-# Codex
+# GitHub Copilot / Codex
 codex skills install https://github.com/Emily2040/seedance-2.0
 
 # Cursor
@@ -63,12 +128,12 @@ windsurf skills install https://github.com/Emily2040/seedance-2.0
 opencode skills install https://github.com/Emily2040/seedance-2.0
 ```
 
-### Manual installation
-
-Clone or copy the skill folders into your agent's skill directory:
+<details>
+<summary><b>📁 Manual Installation Paths</b></summary>
+<br>
 
 | Platform | Workspace path | Global path |
-|---|---|---|
+|:---|:---|:---|
 | **Antigravity** | `.agent/skills/seedance-20/` | `~/.gemini/antigravity/skills/seedance-20/` |
 | **Gemini CLI** | `.gemini/skills/seedance-20/` | `~/.gemini/skills/seedance-20/` |
 | **Firebase Studio** | `.idx/skills/seedance-20/` | — |
@@ -80,121 +145,144 @@ Clone or copy the skill folders into your agent's skill directory:
 | **Windsurf** | `.windsurf/skills/seedance-20/` | `~/.codeium/windsurf/skills/seedance-20/` |
 | **OpenCode** | `.opencode/skills/seedance-20/` | `~/.config/opencode/skills/seedance-20/` |
 
----
+</details>
 
-## 🗂 Skill Directory
+<br>
 
-### Core Pipeline (auto-activated)
+## `>` Platform Matrix
 
-| Skill | Emoji | What it does |
-|---|---|---|
-| `seedance-prompt` | ✍️ | Build and validate prompts — 5-layer stack, @Tag system, quad-modal rules |
-| `seedance-camera` | 🎥 | Camera movement, shot framing, multi-shot sequences, anti-drift locks |
-| `seedance-motion` | 🏃 | Motion timing, action choreography, fight physics, video extension chains |
-| `seedance-lighting` | 💡 | Lighting, atmosphere, light transitions, mood and time-of-day specs |
-| `seedance-characters` | 🎭 | Character identity locking, @Tag assignment, multi-character scene management |
-| `seedance-style` | 🎨 | Visual style, render-engine tokens, period aesthetics, style-transfer reference |
-| `seedance-vfx` | ✨ | VFX physics contracts, particle systems, destruction, energy effects |
-| `seedance-audio` | 🔊 | Native audio design, dialogue lip-sync, @Audio1 reference, desync fixes |
-| `seedance-pipeline` | 🔗 | ComfyUI nodes, API integration, Firebase Studio, post-processing chains |
-| `seedance-recipes` | 📖 | Genre template recipes: product ads, fight scenes, music videos, and more |
-| `seedance-troubleshoot` | 🔧 | QA checklist, generation failure diagnostics, emergency fix procedures |
+<table>
+<tr>
+<td align="center" width="11%"><b>Antigravity</b></td>
+<td align="center" width="11%"><b>Gemini CLI</b></td>
+<td align="center" width="11%"><b>Firebase</b></td>
+<td align="center" width="11%"><b>Claude Code</b></td>
+<td align="center" width="11%"><b>OpenClaw</b></td>
+<td align="center" width="11%"><b>Copilot</b></td>
+<td align="center" width="11%"><b>Codex</b></td>
+<td align="center" width="11%"><b>Cursor</b></td>
+<td align="center" width="11%"><b>Windsurf</b></td>
+</tr>
+<tr>
+<td align="center">✅</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+</tr>
+</table>
 
-### Content Quality
+<br>
 
-| Skill | Emoji | What it does |
-|---|---|---|
-| `seedance-copyright` | ⚖️ | IP rules, safe substitutions, Feb 2026 enforcement data |
-| `seedance-antislop` | 🚫 | Detects and removes AI filler language and hollow superlatives from prompts |
+## `>` Multilingual Precision
 
-### Multilingual Vocabulary
+Seedance 2.0 includes dedicated cinematic vocabulary modules for five languages, enabling native-language prompt engineering for maximum generation fidelity.
 
-| Skill | Emoji | Languages |
-|---|---|---|
-| `seedance-vocab-zh` | 🇨🇳 | 320+ Chinese cinematic terms (15 categories) |
-| `seedance-vocab-ja` | 🇯🇵 | 280+ Japanese cinematic terms (14 categories) |
-| `seedance-vocab-ko` | 🇰🇷 | 270+ Korean cinematic terms (13 categories) |
-| `seedance-vocab-es` | 🇪🇸 | 270+ Spanish cinematic terms (Castilian + Latin American, 13 categories) |
-| `seedance-vocab-ru` | 🇷🇺 | 270+ Russian cinematic terms (Eisenstein/Tarkovsky tradition, 13 categories) |
+<table>
+<tr>
+<td align="center"><b>🇨🇳 Chinese</b><br><code>vocab-zh</code><br><sub>296 lines</sub></td>
+<td align="center"><b>🇯🇵 Japanese</b><br><code>vocab-ja</code><br><sub>235 lines</sub></td>
+<td align="center"><b>🇰🇷 Korean</b><br><code>vocab-ko</code><br><sub>225 lines</sub></td>
+<td align="center"><b>🇪🇸 Spanish</b><br><code>vocab-es</code><br><sub>232 lines</sub></td>
+<td align="center"><b>🇷🇺 Russian</b><br><code>vocab-ru</code><br><sub>235 lines</sub></td>
+</tr>
+</table>
 
-### Production Workflow
+<br>
 
-| Skill | Emoji | What it does |
-|---|---|---|
-| `seedance-interview` | 📋 | Guided pre-production interview → structured Seedance prompt |
-
----
-
-## 🗄 Repository Structure
+## `>` Architecture
 
 ```
 seedance-2.0/
-├── SKILL.md                    ← Root skill (entry point)
-├── LICENSE                     ← MIT
-├── README.md                   ← This file
-├── CHANGELOG.md                ← Version history
+├── SKILL.md                         ← Root entry point (75 lines)
+├── LICENSE                          ← MIT
+├── README.md                        ← You are here
+├── CHANGELOG.md                     ← v3.0.0 → v3.6.0
 ├── .github/
-│   └── CODEOWNERS              ← @iamemily2050 owns all files
-├── skills/
-│   ├── seedance-audio/SKILL.md
-│   ├── seedance-camera/SKILL.md
-│   ├── seedance-characters/SKILL.md
-│   ├── seedance-antislop/SKILL.md
-│   ├── seedance-copyright/SKILL.md
-│   ├── seedance-interview/SKILL.md
-│   ├── seedance-lighting/SKILL.md
-│   ├── seedance-motion/SKILL.md
-│   ├── seedance-pipeline/SKILL.md
-│   ├── seedance-prompt/SKILL.md
-│   ├── seedance-recipes/SKILL.md
-│   ├── seedance-style/SKILL.md
-│   ├── seedance-troubleshoot/SKILL.md
-│   ├── seedance-vfx/SKILL.md
-│   ├── seedance-vocab-es/SKILL.md
-│   ├── seedance-vocab-ja/SKILL.md
-│   ├── seedance-vocab-ko/SKILL.md
-│   ├── seedance-vocab-ru/SKILL.md
-│   └── seedance-vocab-zh/SKILL.md
-└── references/
-    ├── json-schema.md
-    ├── platform-constraints.md
-    ├── prompt-examples.md
-    └── quick-ref.md
+│   └── CODEOWNERS                   ← @iamemily2050
+├── skills/                          ← 19 modular sub-skills
+│   ├── seedance-interview/          ← 📋 Pre-production
+│   ├── seedance-prompt/             ← ✍️ Prompt architecture
+│   ├── seedance-camera/             ← 🎥 Camera language
+│   ├── seedance-motion/             ← 🏃 Motion control
+│   ├── seedance-lighting/           ← 💡 Lighting design
+│   ├── seedance-characters/         ← 🎭 Character fidelity
+│   ├── seedance-style/              ← 🎨 Style control
+│   ├── seedance-vfx/                ← ✨ VFX integration
+│   ├── seedance-audio/              ← 🔊 Audio & lip-sync
+│   ├── seedance-pipeline/           ← 🔗 Pipeline ops
+│   ├── seedance-recipes/            ← 📖 Genre recipes
+│   ├── seedance-troubleshoot/       ← 🔧 QA & debugging
+│   ├── seedance-copyright/          ← ⚖️ IP governance
+│   ├── seedance-antislop/           ← 🚫 Language filter
+│   ├── seedance-vocab-zh/           ← 🇨🇳 Chinese
+│   ├── seedance-vocab-ja/           ← 🇯🇵 Japanese
+│   ├── seedance-vocab-ko/           ← 🇰🇷 Korean
+│   ├── seedance-vocab-es/           ← 🇪🇸 Spanish
+│   └── seedance-vocab-ru/           ← 🇷🇺 Russian
+└── references/                      ← 4 reference files
+    ├── platform-constraints.md      ← Platform limits & rules
+    ├── json-schema.md               ← JSON prompt schema
+    ├── prompt-examples.md           ← Copy-paste examples
+    └── quick-ref.md                 ← Quick reference card
 ```
 
----
+<br>
 
-## ✅ Platform Compatibility
+## `>` References
+
+| File | Purpose |
+|:---|:---|
+| [`platform-constraints.md`](references/platform-constraints.md) | Platform limits, resolution caps, and known behaviors |
+| [`json-schema.md`](references/json-schema.md) | JSON prompt schema for structured generation |
+| [`prompt-examples.md`](references/prompt-examples.md) | Compact, copy-paste prompt examples |
+| [`quick-ref.md`](references/quick-ref.md) | Quick reference card for all parameters |
+
+<br>
+
+## `>` Compliance
 
 All 20 skills pass the [AgentSkills open standard](https://agentskills.io/) validation:
 
 - ✅ `name` — lowercase, hyphen-separated, no dots or spaces
 - ✅ `description` — single-quoted, verb-first, includes WHEN trigger phrases
-- ✅ `license: MIT`
-- ✅ `user-invocable: true` and `user-invokable: true` on all 20 skills
-- ✅ `tags:` array on all 20 skills
-- ✅ `metadata` with `version`, `updated`, `author`, platform blocks
+- ✅ `license: MIT` · `user-invocable: true` · `user-invokable: true`
+- ✅ `tags:` array and `metadata` with `version`, `updated`, `author`, platform blocks
 - ✅ `metadata.parent: seedance-20` on all 19 sub-skills
 - ✅ No illegal top-level custom fields
 
----
+<br>
 
-## 📄 License
+## `>` Changelog
 
-MIT © 2026 [Emily (@iamemily2050)](https://github.com/Emily2040)
+See [`CHANGELOG.md`](CHANGELOG.md) for the full version history from v3.0.0 to v3.6.0.
 
----
+<br>
 
-## 🤝 Contributing
+## `>` Contributing
 
-Pull requests welcome. Please run the front-matter validator before submitting:
+Contributions are welcome. Fork the repository, create a feature branch, and submit a pull request. All contributions will be reviewed by [@Emily2040](https://github.com/Emily2040).
 
-```bash
-# validate all SKILL.md files
-python3 scripts/validate_frontmatter.py
+<br>
+
+## `>` License
+
+```
+MIT © 2026 Emily (@iamemily2050)
 ```
 
 ---
 
-*Built with ❤️ by Emily (@iamemily2050) — AI artist, filmmaker, and agent skill architect.*  
-*Source intelligence: ByteDance Seedance 2.0 official blog, Douyin creator community, CSDN practitioner tutorials, Q1 2026.*
+<p align="center">
+  <sub>Built with precision by <b>Emily (@iamemily2050)</b> — AI artist, filmmaker, and agent skill architect.</sub><br>
+  <sub>
+    <a href="https://x.com/iamemily2050">𝕏 @iamemily2050</a> · 
+    <a href="https://instagram.com/iamemily2050">IG @iamemily2050</a> · 
+    <a href="https://github.com/Emily2040">GitHub @Emily2040</a>
+  </sub><br>
+  <sub>Source intelligence: ByteDance Seedance 2.0 official blog, Douyin creator community, CSDN practitioner tutorials, Q1 2026.</sub>
+</p>
