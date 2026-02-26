@@ -6,6 +6,21 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [3.6.1] — 2026-02-26
+
+### Added
+- **New `seedance-examples-zh` skill** — 16 production-ready Chinese prompt examples across 7 genres (Short Drama, Advertising, Animation, Product, VFX, Cinematography, Beat Sync).
+- **Enhanced Chinese Vocabulary** — Expanded `seedance-vocab-zh` to 400+ terms across 16 categories, including new "Theme & Style" and "Prompt-Ready Phrases".
+- **Official Platform Links** — Added official website links for all 10 supported platforms (Antigravity, Gemini CLI, Firebase Studio, Claude Code, OpenClaw, GitHub Copilot, Codex, Cursor, Windsurf, OpenCode) in `README.md`.
+- **Author Social Links** — Added clickable 𝕏 and IG links for Emily (@iamemily2050) in `README.md` and `SKILL.md`.
+
+### Changed
+- **Universal Version Sync** — All 21 `SKILL.md` files synchronized to `v3.6.1` with updated `2026-02-26` metadata.
+- **README Refinement** — Updated version/skill badges, fixed architecture tree flags, and added "Working Examples" collapsible section.
+- **Platform Constraints** — Updated `platform-constraints.md` with latest Feb 26 verification and API status.
+
+---
+
 ## [3.6.0] — 2026-02-25
 
 ### Added

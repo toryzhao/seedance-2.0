@@ -5,7 +5,7 @@ license: MIT
 user-invocable: true
 user-invokable: true
 tags: ["ai-video", "filmmaking", "bytedance", "seedance", "multimodal", "lip-sync", "openclaw", "antigravity", "gemini-cli", "firebase", "codex", "cursor", "windsurf", "opencode"]
-metadata: {"version": "3.6.1", "updated": "2026-02-25", "openclaw": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "antigravity": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "firebase": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
+metadata: {"version": "3.6.1", "updated": "2026-02-26", "openclaw": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "antigravity": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "firebase": {"emoji": "🎬", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
 ---
 
 # seedance-20
@@ -72,7 +72,7 @@ opencode skills install https://github.com/Emily2040/seedance-2.0
 
 | Version | Date | Changes |
 |---|---|---|
-| 3.6.1 | 2026-02-25 | Enhanced vocab-zh (400+ terms, 16 categories). Added seedance-examples-zh with 16 battle-tested Chinese prompts across 7 genres. |
+| 3.6.1 | 2026-02-26 | Enhanced vocab-zh (400+ terms, 16 categories). Added seedance-examples-zh with 16 battle-tested Chinese prompts across 7 genres. |
 | 3.3.0 | 2026-02-25 | Rewrote seedance-interview v4.0: A/B/C/D/E guided stages, 5-flow types (image/video/audio/one-liner/script), 3-option prompt output, language selection |
 | 3.2.1 | 2026-02-25 | **Accuracy corrections**: removed negative-prompt support claim (not supported), corrected API availability (no public API yet), fixed aspect ratios (added 3:4 and 21:9), fixed video input limit (15s combined not per-file), removed mobile-only duration claim |
 | 3.1.0 | 2026-02-25 | Added copyright, antislop, vocab-ja/ko/es/ru modules. 24 files. |

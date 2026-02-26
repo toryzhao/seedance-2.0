@@ -1,5 +1,5 @@
 # platform-constraints · Seedance 2.0 (Q1 2026)
-# Last verified: 2026-02-25 against ByteDance official launch blog + multiple third-party guides
+# Last verified: 2026-02-26 against ByteDance official launch blog + multiple third-party guides
 
 ## Generation Duration
 
@@ -50,7 +50,7 @@ Use positive constraints instead: describe what you *want*, not what you don't w
     [describe the positive constraint in plain language]
 ```
 
-## API Status (as of 2026-02-25)
+## API Status (as of 2026-02-26)
 
 | Channel | Status |
 |---|---|
