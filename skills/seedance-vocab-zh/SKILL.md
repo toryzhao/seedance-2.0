@@ -1,11 +1,10 @@
 ---
 name: seedance-vocab-zh
-description: 'Look up 320+ Chinese cinematic, photography, and production terms with English equivalents and prompt-ready phrases for Seedance 2.0 across 15 categories. Use when writing prompts in Mandarin, translating a production concept into Chinese Seedance vocabulary, or verifying term accuracy.'
+description: 'Look up 400+ Chinese cinematic, photography, and production terms with English equivalents and prompt-ready phrases for Seedance 2.0 across 16 categories. Use when writing prompts in Mandarin, translating a production concept into Chinese Seedance vocabulary, or verifying term accuracy.'
 license: MIT
 user-invocable: true
-user-invokable: true
 tags: ["vocabulary", "chinese", "i18n", "openclaw", "antigravity", "gemini-cli"]
-metadata: {"version": "3.2.0", "updated": "2026-02-25", "openclaw": {"emoji": "🇨🇳", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "parent": "seedance-20", "antigravity": {"emoji": "🇨🇳", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "🇨🇳", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
+metadata: {"version": "3.6.1", "updated": "2026-02-25", "openclaw": {"emoji": "🇨🇳", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "parent": "seedance-20", "antigravity": {"emoji": "🇨🇳", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "gemini-cli": {"emoji": "🇨🇳", "homepage": "https://github.com/Emily2040/seedance-2.0"}, "author": "Emily (@iamemily2050)", "repository": "https://github.com/Emily2040/seedance-2.0"}
 ---
 
 # seedance-vocab-zh · 中文电影摄影术语全集
@@ -26,10 +25,12 @@ Use terms directly in prompts or combine with English for hybrid precision.
 | 中近景 | zhōng jìnjǐng | Medium close-up (MCU) | `中近景，胸部以上` |
 | 近景 | jìnjǐng | Close-up (CU) | `近景特写面部` |
 | 特写 | tèxiě | Extreme close-up (ECU) | `眼部特写` |
+| 大特写 | dà tèxiě | Big close-up (BCU) | `唇部大特写` |
 | 过肩镜头 | guò jiān jìntóu | Over-the-shoulder (OTS) | `过肩中景，对话` |
 | 两人镜头 | liǎng rén jìntóu | Two-shot | `两人同框中景` |
 | 插入镜头 | chārù jìntóu | Insert shot | `道具插入特写` |
 | 反应镜头 | fǎnyìng jìntóu | Reaction shot | `反应镜头，惊讶表情` |
+| 主观镜头 | zhǔguān jìntóu | Point of view (POV) | `第一人称主观视角` |
 
 ---
 
@@ -40,18 +41,21 @@ Use terms directly in prompts or combine with English for hybrid precision.
 | 推镜头 | tuī jìntóu | Dolly push / Zoom in | `缓慢推镜，聚焦面部` |
 | 拉镜头 | lā jìntóu | Dolly pull / Zoom out | `快速拉镜，揭示空间` |
 | 摇镜头 | yáo jìntóu | Pan | `水平摇镜，追踪角色` |
+| 俯仰摇 | fǔyǎng yáo | Tilt | `向上仰摇，展现高度` |
 | 移镜头 | yí jìntóu | Tracking / Lateral dolly | `左移跟拍` |
 | 跟镜头 | gēn jìntóu | Follow shot | `肩后跟随` |
 | 升镜头 | shēng jìntóu | Crane up / Rise | `缓慢升镜，俯瞰全局` |
 | 降镜头 | jiàng jìntóu | Crane down | `降镜落地，贴地视角` |
 | 环绕镜头 | huánrào jìntóu | Orbit / 360° | `环绕主角顺时针旋转` |
+| 弧形运镜 | húxíng yùnjǐng | Arc shot | `弧形运镜，展现多角度` |
 | 甩镜头 | shuǎi jìntóu | Whip pan | `快速甩镜转场` |
 | 一镜到底 | yī jìng dào dǐ | One-take / Oner | `一镜到底，无剪辑` |
 | 手持镜头 | shǒuchí jìntóu | Handheld | `手持晃动，真实感` |
 | 稳定器运镜 | wěndìngqì yùnjǐng | Gimbal / Steadicam | `稳定器跟拍，流畅移动` |
 | 贴地低角度 | tiē dì dī jiǎodù | Ground-level low angle | `贴地仰拍` |
 | 无人机航拍 | wúrénjī hángpāi | Drone / Aerial | `航拍俯视，大景别` |
-| 运镜 | yùnjǐng | Camera movement (general) | `流畅运镜` |
+| 穿越机视角 | chuānyuè jī shìjiǎo | FPV drone view | `FPV第一人称穿越` |
+| 希区柯克变焦 | xīqūkēkè biànjiāo | Dolly zoom / Vertigo effect | `希区柯克变焦，眩晕感` |
 
 ---
 
@@ -62,15 +66,18 @@ Use terms directly in prompts or combine with English for hybrid precision.
 | 广角镜头 | guǎngjiǎo jìntóu | Wide angle lens | `广角畸变，空间感强` |
 | 长焦镜头 | chángjiāo jìntóu | Telephoto lens | `长焦压缩，背景虚化` |
 | 标准镜头 | biāozhǔn jìntóu | Normal lens (50mm) | `标准镜，自然透视` |
-| 微距镜头 | wēijù jìntóu | Macro lens | `微距，极致细节` |
+| 微距镜头 | wēijù jìntóou | Macro lens | `微距，极致细节` |
 | 鱼眼镜头 | yúyǎn jìntóu | Fisheye lens | `鱼眼变形，180° 视角` |
+| 变形宽银幕镜头 | biànxíng kuān yínmù jìntóu | Anamorphic lens | `变形宽银幕，电影感` |
 | 浅景深 | qiǎn jǐngshēn | Shallow depth of field | `浅景深，背景奶油虚化` |
 | 深景深 | shēn jǐngshēn | Deep depth of field | `全清晰，深景深` |
+| 焦点转移 | jiāodiǎn zhuǎnyí | Rack focus | `焦点从前景转到后景` |
 | 焦外虚化 | jiāo wài xūhuà | Bokeh | `焦外光点虚化` |
 | 移轴效果 | yízhóu xiàoguǒ | Tilt-shift | `移轴微缩效果` |
 | 变焦爆炸 | biànjiāo bàozhà | Zoom burst | `变焦爆炸动感模糊` |
 | 光晕 | guāngyùn | Lens flare | `镜头光晕，逆光` |
 | 眩光 | xuànguāng | Glare / Anamorphic flare | `变形镜头眩光` |
+| 柔焦 | róujiāo | Soft focus | `柔焦滤镜，梦幻感` |
 
 ---
 
@@ -88,6 +95,9 @@ Use terms directly in prompts or combine with English for hybrid precision.
 | 前景虚化 | qiánjǐng xūhuà | Foreground blur | `前景虚化遮挡` |
 | 层次感 | céngcì gǎn | Layered depth | `前中后景层次分明` |
 | 居中构图 | jūzhōng gòutú | Centered composition | `主体居中，Wes Anderson风格` |
+| 俯拍 | fǔpāi | High-angle shot / Top-down | `上帝视角俯拍` |
+| 仰拍 | yǎngpāi | Low-angle shot | `仰拍凸显高大` |
+| 荷兰角 | hélán jiǎo | Dutch angle / Canted angle | `荷兰角倾斜构图，不安感` |
 
 ---
 
@@ -95,6 +105,7 @@ Use terms directly in prompts or combine with English for hybrid precision.
 
 | 中文 | 拼音 | English | Prompt use |
 |---|---|---|---|
+| 三点布光 | sān diǎn bùguāng | Three-point lighting | `标准三点布光` |
 | 主光 | zhǔ guāng | Key light | `侧面主光` |
 | 辅光 | fǔ guāng | Fill light | `柔和辅光补阴影` |
 | 轮廓光 | lúnkuò guāng | Rim / Edge light | `逆光轮廓` |
@@ -103,14 +114,17 @@ Use terms directly in prompts or combine with English for hybrid precision.
 | 底光 | dǐ guāng | Bottom light / Up-light | `底部反光，恐怖感` |
 | 侧光 | cè guāng | Side light | `45°侧光雕塑感` |
 | 逆光 | nì guāng | Backlight | `强逆光剪影` |
+| 伦勃朗光 | lúnbólǎng guāng | Rembrandt lighting | `伦勃朗三角光` |
+| 蝴蝶光 | húdié guāng | Butterfly lighting | `蝴蝶光，鼻下阴影` |
 | 散射光 | sǎnshè guāng | Diffused light | `阴天散射，柔和均匀` |
 | 硬光 | yìng guāng | Hard light | `强硬光，高反差` |
 | 柔光 | róu guāng | Soft light | `柔光箱，无阴影` |
 | 黄金时刻 | huángjīn shíkè | Golden hour | `黄金时刻，暖橙光` |
 | 蓝调时刻 | lándiào shíkè | Blue hour | `蓝调时刻，冷蓝氛围` |
 | 丁达尔效应 | dīngdá'ěr xiàoyìng | God rays / Tyndall | `丁达尔光束穿林` |
-| 霓虹光 | nínghóng guāng | Neon light | `霓虹反光，赛博朋克` |
+| 霓虹光 | níhóng guāng | Neon light | `霓虹反光，赛博朋克` |
 | 烛光 | zhú guāng | Candlelight | `烛光摇曳，暖调` |
+| 体积光 | tǐjī guāng | Volumetric light | `体积光，光束感` |
 
 ---
 
@@ -126,9 +140,12 @@ Use terms directly in prompts or combine with English for hybrid precision.
 | 褪色感 | tuìsè gǎn | Faded / Desaturated | `胶片褪色质感` |
 | 高饱和 | gāo bǎohé | Vivid / Oversaturated | `高饱和糖果色` |
 | 黑白 | hēibái | Black and white | `黑白高反差` |
+| 单色 | dānsè | Monochrome | `蓝色单色调` |
 | 双色调 | shuāngsèdiào | Duotone | `靛蓝橙双色调` |
 | 胶片颗粒 | jiāopiàn kēlì | Film grain | `35mm 胶片颗粒` |
 | LUT | LUT | LUT (Look-Up Table) | `Teal & Orange LUT` |
+| 色彩溢出 | sècǎi yìchū | Color bleed | `霓虹色彩溢出` |
+| 色差 | sèchā | Chromatic aberration | `边缘色差，复古感` |
 
 ---
 
@@ -139,11 +156,15 @@ Use terms directly in prompts or combine with English for hybrid precision.
 | 升格 | shēnggé | Slow motion (overcrank) | `升格慢动作，0.2×速度` |
 | 降格 | jiànggé | Fast motion (undercrank) | `降格快进，时间流逝` |
 | 延时摄影 | yánshí shèyǐng | Timelapse | `延时摄影，云流动` |
+| 轨迹延时 | guǐjì yánshí | Hyperlapse | `移动延时，穿梭感` |
 | 卡点 | kǎdiǎn | Beat sync | `卡点剪辑，节拍对齐` |
+| 匹配剪辑 | pǐpèi jiǎnjí | Match cut | `动作匹配剪辑转场` |
+| 跳切 | tiàoqiē | Jump cut | `跳切，时间跳跃` |
 | 无缝转场 | wúféng zhuǎnchǎng | Seamless transition | `无缝转场` |
 | 硬切 | yìng qiē | Hard cut | `硬切换景` |
 | 淡入淡出 | dàn rù dàn chū | Fade in / Fade out | `淡入开场` |
 | 叠化 | diéhuà | Dissolve | `叠化转场` |
+| 划像 | huàxiàng | Wipe | `星战风格划像转场` |
 | 定格 | dìnggé | Freeze frame | `动作定格` |
 | 时间扭曲 | shíjiān niǔqū | Time warp | `时间扭曲特效` |
 | 运动模糊 | yùndòng móhú | Motion blur | `运动模糊，速度感` |
@@ -160,7 +181,9 @@ Use terms directly in prompts or combine with English for hybrid precision.
 | 配乐 | pèiyuè | Score / Soundtrack | `史诗交响配乐` |
 | 人声 | rénshēng | Vocals / Voice | `女声低吟` |
 | 旁白 | pángbái | Voiceover / Narration | `低沉旁白` |
+| 口型同步 | kǒuxíng tóngbù | Lip sync | `口型同步` |
 | 双声道立体声 | shuāng shēngdào lìtǐ shēng | Dual-channel stereo | `双声道立体声输出` |
+| 空间音频 | kōngjiān yīnpín | Spatial audio | `空间音频，沉浸感` |
 | 混响 | hùnxiǎng | Reverb | `大厅混响` |
 | 节拍 | jiébāi | Beat / BPM | `120 BPM 节拍` |
 | 静默 | jìngmò | Silence | `完全静默，张力` |
@@ -182,6 +205,7 @@ Use terms directly in prompts or combine with English for hybrid precision.
 | 悬念 | xuánniàn | Suspense | `制造悬念` |
 | 情绪弧 | qíngsù hú | Emotional arc | `情绪弧从压抑到爆发` |
 | 建立镜头 | jiànlì jìntóu | Establishing shot | `建立镜头，交代环境` |
+| 蒙太奇 | méngtàiqí | Montage | `训练蒙太奇` |
 
 ---
 
@@ -201,6 +225,7 @@ Use terms directly in prompts or combine with English for hybrid precision.
 | 发光描边 | fāguāng miáobiān | Glow outline / Aura | `角色发光描边` |
 | 闪光 | shǎnguāng | Flash / Strobe | `强光闪烁` |
 | CGI合成 | CGI héchéng | CGI composite | `CGI与实景合成` |
+| 绿幕 | lǜmù | Green screen / Chroma key | `绿幕背景替换` |
 
 ---
 
@@ -220,6 +245,7 @@ Use terms directly in prompts or combine with English for hybrid precision.
 | 连击 | liánjī | Combo | `三连击` |
 | 反击 | fǎnjī | Counter-attack | `侧闪反击` |
 | 定招 | dìng zhāo | Finishing move / Pose | `结束招式定格` |
+| 子弹时间 | zǐdàn shíjiān | Bullet time | `子弹时间，慢动作闪避` |
 
 ---
 
@@ -273,21 +299,44 @@ Use terms directly in prompts or combine with English for hybrid precision.
 
 ---
 
-## D.15 直用短语 · Prompt-Ready Phrases
+## D.15 主题与风格 · Theme & Style
+
+| 中文 | 拼音 | English | Prompt use |
+|---|---|---|---|
+| 赛博朋克 | sàibópéngkè | Cyberpunk | `赛博朋克，霓虹都市` |
+| 蒸汽朋克 | zhēngqìpéngkè | Steampunk | `蒸汽朋克，齿轮机械` |
+| 武侠 | wǔxiá | Wuxia / Martial arts | `武侠风，竹林剑客` |
+| 仙侠 | xiānxiá | Xianxia / High fantasy | `仙侠风，御剑飞行` |
+| 国风 | guófēng | Guofeng / Chinese style | `水墨国风` |
+| 废土 | fèitǔ | Post-apocalyptic / Wasteland | `废土风格，末日拾荒` |
+| 克苏鲁 | kèsūlǔ | Cthulhu / Cosmic horror | `克苏鲁式，不可名状` |
+| 哥特 | gētè | Gothic | `哥特建筑，暗黑氛围` |
+| 巴洛克 | bāluòkè | Baroque | `巴洛克宫廷，华丽繁复` |
+| 洛可可 | luòkěkě | Rococo | `洛可可，轻快柔美` |
+| 极简主义 | jíjiǎn zhǔyì | Minimalism | `极简构图，大面积留白` |
+| 超现实主义 | chāoxiànshí zhǔyì | Surrealism | `超现实，梦境感` |
+| 纪实风格 | jìshí fēnggé | Documentary style | `纪实感，手持跟拍` |
+| VLOG风格 | VLOG fēnggé | VLOG style | `生活感VLOG` |
+| MG动画 | MG dònghuà | Motion Graphics | `扁平化MG动画` |
+| 孟菲斯 | mèngfēisī | Memphis Design | `孟菲斯风格，几何撞色` |
+
+---
+
+## D.16 直用短语 · Prompt-Ready Phrases
 
 Copy these directly into prompts.
 
 ### Shot size
-`大远景建立环境` · `全景，人物全身` · `中景，腰部以上` · `近景面部特写` · `眼部极特写`
+`大远景建立环境` · `全景，人物全身` · `中景，腰部以上` · `近景面部特写` · `眼部极特写` · `第一人称主观视角`
 
 ### Camera movement
-`缓慢推镜聚焦` · `快速拉镜揭示全景` · `水平摇镜追踪` · `环绕360°旋转` · `一镜到底无剪辑` · `手持晃动真实感` · `无人机俯拍`
+`缓慢推镜聚焦` · `快速拉镜揭示全景` · `水平摇镜追踪` · `环绕360°旋转` · `一镜到底无剪辑` · `手持晃动真实感` · `无人机俯拍` · `FPV第一人称穿越`
 
 ### Lighting
-`黄金时刻逆光` · `蓝调时刻冷调` · `丁达尔光束` · `霓虹侧光赛博朋克` · `烛光暖调` · `硬光高反差阴影`
+`黄金时刻逆光` · `蓝调时刻冷调` · `丁达尔光束` · `霓虹侧光赛博朋克` · `烛光暖调` · `硬光高反差阴影` · `伦勃朗光` · `体积光`
 
 ### Motion & time
-`升格慢动作0.2×` · `卡点节拍对齐` · `延时摄影云流动` · `无缝转场` · `运动模糊速度感`
+`升格慢动作0.2×` · `卡点节拍对齐` · `延时摄影云流动` · `无缝转场` · `运动模糊速度感` · `子弹时间`
 
 ### Delegation level phrases
 - Level 1: `营造氛围，留白给模型发挥`
